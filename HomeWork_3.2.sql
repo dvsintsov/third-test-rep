@@ -7,12 +7,13 @@
 select 
         avg(min_salary) min_sal_avg
         , avg(max_salary) max_sal_avg
-from jobs;
+from jobs2;
 
 --Задание 2
 --Выберите средний идентификатор региона (region_id) из таблицы стран (Countries).
 select   avg(region_id) 
-from Countries
+--from Countries
+from departments
 
 --Задание 3
 --Выберите среднюю заработную плату сотрудников (salary) с группировкой по идентификатору работы (job_id) из таблицы сотрудников (Employees).
